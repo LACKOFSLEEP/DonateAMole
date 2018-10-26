@@ -1,0 +1,171 @@
+/* General */
+
+* { margin:0; padding:0;box-sizing: border-box;}
+
+
+header, nav, #contact-form, footer {
+	background: #eee;
+	padding: 1em 2em;
+	border-radius: 10px;
+	margin-top: 1em;
+}
+
+body{
+	margin: 3em;
+	font-size:14px;
+	font-family:arial; 
+	color:#191919;
+}
+
+a{ 
+	text-decoration:none; 
+	color:#191919;}
+
+a:hover{
+	text-decoration: none;}
+
+.clear { 
+	clear:both; 
+	display:block; 
+	overflow:hidden; 
+	visibility:hidden; 
+	width:0; 
+	height:0 }
+
+.clearfix { 
+	*zoom:1;}
+
+.clearfix:after { 
+	display:block; 
+	clear:both; 
+	height:0; 
+	overflow:hidden; 
+	content:"";} 
+
+html,body{
+	height:100%; 
+	background:#FFF; }
+
+ul,ul li{
+	list-style-type: none;}
+
+.fl{ 
+	float:left;}
+
+.fr{ 
+	float:right;}
+
+.tc{
+	text-align: center;}
+
+.vt{
+	vertical-align: top;
+}
+.header{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0 70px;
+}
+.header .leftbox .right .p1{
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+}
+.header .leftbox .left img{
+	margin-right: 15px;
+}
+.header .rightbox a{
+	margin: 30px 10px 0 10px;
+	display: inline-block;
+}
+
+/* Form */
+
+#contact-form {
+	margin: 1em 4em;
+	padding: 2em 4em;
+}
+
+fieldset {
+    margin-top: 1em;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 10px;
+    background: white;
+    display: block;
+}
+
+legend {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0.5em 1em;
+    margin: 0 -1em;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+fieldset .form-item {
+    display: flex;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+fieldset .form-item > label {
+    font-weight: bold;
+    width: 25%;
+    padding-right: 2em;
+    text-align: right;
+    text-shadow: rgba(0,0,0,0.3) 3px 3px 5px;
+}
+fieldset .form-item .form-element {
+    width: 75%;
+}
+
+fieldset .form-item .form-element > label {
+	display: block;
+}
+
+input[type=text], textarea {
+    box-shadow: rgba(0,0,0,0.15) 3px 3px 5px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+input[type=text]:focus {
+    border-color: #2cb5e8;
+}
+
+input[type=radio], input[type=checkbox] {
+    margin-right: 1em;
+}
+
+select {
+    font-size: 1em;
+}
+
+button {
+    font-weight: bold;
+    font-size: 1.3em;
+    background: black;
+    padding: 0.5em 1em;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(-90deg, red, orange);
+    cursor: pointer;
+    float: right;
+}
+
+#footer {
+	justify-content: center;
+	margin: 2em 0em 2em 37em;
+	
+}
